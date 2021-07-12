@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "username",
+    "password": "password",
+    "database": "appdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_seed_data"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_seed_data"
+  }
+}
