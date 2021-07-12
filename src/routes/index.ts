@@ -3,10 +3,11 @@ import MessageService from '../services/MessageService';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    const message : string = MessageService.getMessage();
+router.get('/', async (req, res) => {
+    const staticMessage : string = await MessageService.getMessage();
+    const dbMessages : any = await MessageService.getAllMessages();
 
-    res.json({ message: message });
+    res.json({ staticMessage: staticMessage, dbMessages: dbMessages });
 
 });
 
