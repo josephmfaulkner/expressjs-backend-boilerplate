@@ -9,10 +9,7 @@
     "seederStorageTableName": "sequelize_seed_data"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "seederStorage": "sequelize",
     "seederStorageTableName": "sequelize_seed_data"
