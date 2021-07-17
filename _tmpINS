@@ -1,0 +1,16 @@
+npm install --save 
+    type-graphql 
+    reflect-metadata 
+    graphql 
+    express 
+    class-validator 
+    apollo-server-express 
+    mongoose 
+    @typegoose/typegoose
+
+npm install --save-dev types/express @types/graphql @types/node typescript ts-node nodemon 
+
+
+
+npm install --save type-graphql reflect-metadata graphql express class-validator apollo-server-express 
+
